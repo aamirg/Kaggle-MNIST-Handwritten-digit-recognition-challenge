@@ -1,3 +1,5 @@
+https://www.kaggle.com/c/digit-recognizer
+
 Kaggle score - 0.98414
 Kaggle rank achieved 09/03/2016 - (Tied) 279/1044
 
