@@ -1,6 +1,9 @@
+Kaggle score - 0.98414
+Kaggle rank achieved - (Tied) 279/1044
+
 Libraries Required -
 
-We have mostly used the sklearn library which is pre-installed in Anaconda's Spyder IDE. 
+We have used the sklearn library which is pre-installed in Anaconda's Spyder IDE. 
 Other libraries are pandas,numpy,nolearn.dbn.
 
 To install - 
