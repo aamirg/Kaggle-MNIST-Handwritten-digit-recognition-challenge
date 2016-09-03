@@ -1,0 +1,41 @@
+Python 2.7.8 |Anaconda 2.1.0 (64-bit)| (default, Jul  2 2014, 15:12:11) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Anaconda is brought to you by Continuum Analytics.
+Please check out: http://continuum.io/thanks and https://binstar.org
+>>> runfile('C:/Users/Aamir/.spyder2/defaults/untitled3.py', wdir=r'C:/Users/Aamir/.spyder2/defaults')
+C:\Users\Aamir\Anaconda\lib\site-packages\sklearn\pls.py:7: DeprecationWarning: This module has been moved to cross_decomposition and will be removed in 0.16
+  "removed in 0.16", DeprecationWarning)
+Scaling
+Applying a learning algorithm...
+
+Classification report for classifier SVC(C=100000.0, cache_size=1000, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.03125, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.99      0.99      0.99       980
+        1.0       0.99      0.99      0.99      1135
+        2.0       0.98      0.99      0.98      1032
+        3.0       0.98      0.99      0.99      1010
+        4.0       0.99      0.99      0.99       982
+        5.0       0.99      0.98      0.99       892
+        6.0       0.99      0.99      0.99       958
+        7.0       0.98      0.98      0.98      1028
+        8.0       0.98      0.98      0.98       974
+        9.0       0.98      0.97      0.98      1009
+
+avg / total       0.99      0.99      0.99     10000
+
+
+Confusion matrix:
+[[ 974    0    1    0    0    2    0    1    2    0]
+ [   0 1128    3    1    0    1    0    1    1    0]
+ [   4    0 1017    0    1    0    0    7    3    0]
+ [   0    0    2  997    1    2    0    4    3    1]
+ [   0    0    2    0  968    0    4    0    1    7]
+ [   2    0    0    5    1  877    3    1    2    1]
+ [   3    2    0    0    2    2  948    0    1    0]
+ [   0    3    8    1    1    0    0 1007    1    7]
+ [   3    0    1    3    1    1    1    2  958    4]
+ [   2    3    0    6    6    2    1    5    1  983]]
+>>> 
